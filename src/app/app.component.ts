@@ -16,7 +16,7 @@ export class AppComponent {
   title = 'bond-price-watcher';
   data: any[] = [];
   legendPosition = LegendPosition.Right;
-  refreshIntervalInMinutes: number = 1;
+  refreshIntervalInMinutes: number = 15;
   bondAlertName: string = "";
   bondAlertPrice: number = 0;
   alertIsSet: boolean = false;
